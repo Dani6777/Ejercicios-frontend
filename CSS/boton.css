@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+}
+
+.search{
+    align-items: center;
+    background-color: rgb(163, 241, 215);
+    border: 2px solid #008080; /* Ancho, estilo y color del borde */
+    border-radius: 20px; /* Bordes redondeados */
+    margin: 15px 15px;
+    width: 200px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.search span{
+    color: #008080;
+}
+.search:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.more{
+    background-color: aqua;
+    border-radius: 50%;
+    border-color: #008080;
+    width: 50px; /* Puedes ajustar el ancho según tus necesidades */
+    height: 50px; /* Asegúrate de que el alto sea igual al ancho para que sea un círculo perfecto */
+    cursor: pointer;
+}
+
+.more span{
+    align-items: center;
+}
+.more:hover {
+    background-color: #ffcc00; /* Cambia a otro color al pasar el mouse */
+}
+
+.add-count{
+    background-color: rgb(83, 83, 224);
+    width: 100px; /* Puedes ajustar el ancho según tus necesidades */
+    height:30px;
+    border-color: #008080;
+    cursor: pointer;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1), /* Sombra más clara */
+    0 4px 6px -1px rgba(0, 0, 0, 0.2), /* Sombra principal */
+    0 10px 16px 1px rgba(0, 0, 0, 0.1);
+}
+
+.add-count p{
+    color: aliceblue;
+}
+
+.add-count:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Añade una sombra más pronunciada */
+}
