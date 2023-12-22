@@ -1,0 +1,39 @@
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #333; 
+    padding: 10px; 
+}
+h1 {
+    margin: 0; 
+    margin-right: 65%;
+    color: #fff; 
+}
+
+nav {
+    background-color: #333; 
+}
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+li {
+    display: inline; 
+    margin-right: 20px; 
+}
+a {
+    text-decoration: none; 
+    color: #fff; 
+}
+.btn {
+    background-color: #007bff;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    margin-left: 20px;
+    box-shadow: 2px 2px 4px 0px #000;
+}
