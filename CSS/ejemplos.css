@@ -1,0 +1,58 @@
+/* Estilos para el elemento */
+.elemento {
+    margin: 10px 20px; /* Margen en formato corto */
+    background-color: blueviolet;
+    border: 1px solid black;
+    padding: 10px 20px; /* Relleno en formato corto */
+    color: aliceblue;
+    font-size: large;
+}
+
+/* Estilos para la imagen */
+.imagen {
+    /* Agrega estilos según sea necesario para las imágenes */
+}
+
+/* Estilos para las letras y fuentes */
+.letrasyporte {
+    font-family: "Oswald-Regular";
+    font-size: 30px;
+    color: hsl(129, 79%, 25%);
+    letter-spacing: 3.33px;
+    line-height: 43px;
+    margin: 28px 0;
+    text-transform: uppercase !important;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el span dentro del encabezado */
+header span {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+/* Estilos para el contenedor */
+.contenedor {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    height: 100%;
+}
+
+/* Estilos para la lista dentro del contenedor */
+.contenedor ul {
+    list-style: none;
+}
+
+/* Estilos para la información dentro del contenedor */
+.informacion {
+    margin-left: 20px;
+}
