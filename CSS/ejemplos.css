@@ -1,58 +1,78 @@
-/* Estilos para el elemento */
-.elemento {
-    margin: 10px 20px; /* Margen en formato corto */
-    background-color: blueviolet;
-    border: 1px solid black;
-    padding: 10px 20px; /* Relleno en formato corto */
-    color: aliceblue;
-    font-size: large;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
 }
 
-/* Estilos para la imagen */
-.imagen {
-    /* Agrega estilos según sea necesario para las imágenes */
-}
-
-/* Estilos para las letras y fuentes */
-.letrasyporte {
-    font-family: "Oswald-Regular";
-    font-size: 30px;
-    color: hsl(129, 79%, 25%);
-    letter-spacing: 3.33px;
-    line-height: 43px;
-    margin: 28px 0;
-    text-transform: uppercase !important;
-}
-
-/* Estilos para el encabezado */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #f2f2f2;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
-/* Estilos para el span dentro del encabezado */
 header span {
     font-size: 1.2em;
     margin-right: 10px;
 }
 
-/* Estilos para el contenedor */
 .contenedor {
     display: flex;
     align-items: center;
     max-width: 1200px;
-    height: 100%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para la lista dentro del contenedor */
-.contenedor ul {
-    list-style: none;
+.contenedor img {
+    max-width: 100%;
+    height: auto;
 }
 
-/* Estilos para la información dentro del contenedor */
 .informacion {
     margin-left: 20px;
+    padding: 20px;
+}
+
+.letrasyporte {
+    font-family: "Oswald-Regular", sans-serif;
+    font-size: 30px;
+    color: hsl(129, 79%, 25%);
+    letter-spacing: 3.33px;
+    line-height: 43px;
+    margin: 28px 0;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+span {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ol li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
