@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Tareas</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>App de Tareas</h1>
+    </header>
+    <main>
+        <ul>
+            <li class="task task-red" id="task1">
+                <span>Completar tarea 1</span>
+                <button class="delete-button">Eliminar</button>
+            </li>
+            <li class="task task-red" id="task2">
+                <span>Completar tarea 2</span>
+                <button class="delete-button">Eliminar</button>
+            </li>
+            <li class="task task-red" id="task3">
+                <span>Completar tarea 3</span>
+                <button class="delete-button">Eliminar</button>
+            </li>
+        </ul>
+        <form id="taskForm">
+            <input type="text" id="newTask" placeholder="Nueva tarea" required>
+            <button type="submit">Agregar</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
