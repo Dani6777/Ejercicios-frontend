@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transferencias - Wallet</title>
+    <title>Agregar Destinatario</title>
     <!-- Agregamos el enlace a Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/sendmoney.css"> <!-- Asegúrate de que la ruta sea correcta -->
+    <link rel="stylesheet" href="CSS/add-recipient.css"> <!-- Asegúrate de que la ruta sea correcta -->
 </head>
 <body class="container">
 
@@ -33,38 +33,41 @@
         </div>
     </nav>
 
-    <!-- Contenido principal del formulario de transferencia -->
+    <!-- Contenido principal del formulario de agregar destinatario -->
     <div class="row mt-3">
         <div class="col-md-6 offset-md-3">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Nueva Transferencia</h5>
+                    <h5 class="card-title">Agregar Destinatario</h5>
                     <form>
                         <div class="form-group">
-                            <label for="destinatario">Destinatario:</label>
-                            <input type="text" class="form-control" id="destinatario" placeholder="Nombre del destinatario" required>
+                            <label for="nombreDestinatario">Nombre del Destinatario:</label>
+                            <input type="text" class="form-control" id="nombreDestinatario" placeholder="Nombre completo" required>
                         </div>
                         <div class="form-group">
-                            <label for="monto">Monto:</label>
-                            <input type="number" class="form-control" id="monto" placeholder="Ingrese el monto" required>
+                            <label for="rut">Rut:</label>
+                            <input type="text" class="form-control" id="rut" placeholder="11111111-1" required>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Transferir</button>
+                            <label for="numeroCuenta">Número de Cuenta:</label>
+                            <input type="text" class="form-control" id="numeroCuenta" placeholder="Número de cuenta" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="alias">Alias:</label>
+                            <input type="text" class="form-control" id="alias" placeholder="Alias" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Agregar Destinatario</button>
                             <a href="./index.html" class="btn btn-danger ml-2">Cancelar</a>
-
                         </div>
                     </form>
                 </div>
             </div>
-            <!-- Botón "Agregar Contacto" fuera del formulario -->
-            <a href="./add-recipient.html" class="btn btn-info mt-3">Agregar Destinatario</a>
         </div>
     </div>
 
     <!-- Agregamos el script de Bootstrap JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- script tags fueron eliminados ya que no son necesarios para esta versión -->
 
 </body>
 </html>

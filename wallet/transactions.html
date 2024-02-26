@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Últimos Movimientos de Transacciones</title>
+    <!-- Agregamos el enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/transactions.css"> <!-- Asegúrate de que la ruta sea correcta -->
 </head>
-<body>
-    
+<body class="container">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark-x">
+        <a class="navbar-brand" href="#">
+            <img src="./IMG/logo.jpg" alt="Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal con el botón "Transferir" -->
+    <div class="d-flex justify-content-between align-items-center mt-3">
+        <h1>Últimos Movimientos de Transacciones</h1>
+        <a href="./sendmoney.html" class="btn btn-info mt-3">Nueva Transferencia</a>
+    </div>
+
+    <table class="table mt-4">
+        <thead class="thead-light">
+            <tr>
+                <th>Fecha</th>
+                <th>Descripción</th>
+                <th>Monto</th>
+                <th>Destino</th>
+                <!-- Puedes agregar más encabezados según tus necesidades -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2024-01-05 </td>
+                <td>Transferencia</td>
+                <td>$150.000</td>
+                <td>Mamá</td>
+            </tr>
+            <tr>
+                <td>2024-03-10</td>
+                <td>Compra de productos</td>
+                <td>$10.000</td>
+                <td>Mercado Libre</td>
+            </tr>
+            <tr>
+                <td>2024-01-30  </td>
+                <td>Cargo</td>
+                <td>$50.000</td>
+                <td>Aguas Andinas</td>
+               
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Agregamos el script de Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>

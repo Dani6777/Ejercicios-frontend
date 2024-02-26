@@ -1,11 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard de Wallet</title>
+    <!-- Agregamos el enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/index.css"> <!-- Asegúrate de que la ruta sea correcta -->
 </head>
-<body>
-    
+<body class="container">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark-x">
+        <a class="navbar-brand" href="#index">
+            <img src="./IMG/logo.jpg" alt="Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./perfil.html ">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido principal del Dashboard -->
+    <div class="row mt-3">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Saldo Total</h5>
+                    <p class="card-text">$1,500.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Transacciones Recientes</h5>
+                    <p class="card-text">+ $100.00 - Compra de productos</p>
+                    <p class="card-text">- $50.00 - Retiro de efectivo</p>
+                    <!-- Puedes agregar más transacciones recientes -->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Opciones</h5>
+                    <a href="./sendmoney.html" class="btn btn-primary mr-3">Transferir</a>
+                    <a href="./transactions.html" class="btn btn-secondary mr-3">Historial</a>
+                    <a href="./add-recipient.html" class="btn btn-info mt-3">Agregar Destinatario</a>
+                    <!-- Puedes agregar más opciones según tus necesidades -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Agregamos el script de Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
