@@ -1,0 +1,31 @@
+
+:root {
+    --dark: #16191c;
+    --dark-x: #1a1e21;
+    --light: #f5f5f5;
+    --blue: #78a0d4;
+}
+
+body {
+    font-family: 'spartan', 'spartan-serif';
+    font-weight: 300;
+    
+}
+
+
+.logo {
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+
+
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(--dark-x);
+    outline: none;
+}
